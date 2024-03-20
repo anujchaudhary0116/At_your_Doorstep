@@ -11,10 +11,10 @@ const users = [
   },
   {
       _id: ObjectId("625add3d78fb449f9d9fe2ee"),
-    name: 'John',
-    lastName: 'Doe',
-    email: 'john@doe.com',
-    password: bcrypt.hashSync('john@doe.com', 10),
+    name: 'Anmol',
+    lastName: 'Gangwar',
+    email: 'anmol@test.com',
+    password: bcrypt.hashSync('anmol@test.com', 10),
   },
 ]
 

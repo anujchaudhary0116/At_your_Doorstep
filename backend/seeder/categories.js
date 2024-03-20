@@ -1,80 +1,30 @@
 const categories = [
-    {
-    name: "Computers",
+  {
+    name: "Plumber",
     description:
-      "Computers - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
+      "Unbeatable plumbing services! We want to assist people to save money while improving their homes.",
+    image: "/images/p2.jpg",
     attrs: [
-      { key: "RAM", value: ["1 TB", "2 TB", "4 TB"] },
-      { key: "color", value: ["blue", "red", "green", "black"] },
+      { key: "level", value: ["expert", "naive", "experienced"] },
     ],
   },
   {
-    name: "Computers/Laptops",
+    name: "Electrician",
     description:
-      "Computers/Laptops - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
+      "Powering Your Home. We Make Things Shine.",
+    image: "/images/e1.jpg",
+    attrs: [
+      { key: "level", value: ["expert", "naive", "experienced"] },
+    ],
   },
   {
-    name: "Computers/Laptops/Lenovo",
+    name: "Barber",
     description:
-      "Computers/Laptops/Lenovo - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
-  },
-  {
-    name: "Computers/Laptops/Dell",
-    description:
-      "Computers/Laptops/Dell - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
-  },
-  {
-    name: "Tablets",
-    description:
-      "Tablets - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
-  },
-  {
-    name: "Monitors",
-    description:
-      "Monitors - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/monitors-category.png",
-  },
-  {
-    name: "Games",
-    description:
-      "Games - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/games-category.png",
-  },
-  {
-    name: "Printers",
-    description:
-      "Printers - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
-  },
-  {
-    name: "Software",
-    description:
-      "Software - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/monitors-category.png",
-  },
-  {
-    name: "Cameras",
-    description:
-      "Cameras - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/games-category.png",
-  },
-  {
-    name: "Books",
-    description:
-      "Books - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
-    attrs: [{ key: "genre", value: ["movie", "comedy", "thriller"] }],
-  },
-  {
-    name: "Videos",
-    description:
-      "Videos - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/monitors-category.png",
+      "Let us cut your hair the way we cut our own. You don't just get a closer shave!",
+    image: "/images/b1.jpg",
+    attrs: [
+      { key: "level", value: ["expert", "naive", "experienced"] },
+    ],
   },
 ]
 

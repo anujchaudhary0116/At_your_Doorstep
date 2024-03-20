@@ -6,8 +6,9 @@ const ProductForListComponent = ({ productId, name, description, price, images, 
   return (
     <Card style={{ marginTop: "30px", marginBottom: "50px" }}>
       <Row>
-        <Col lg={5}>
+        <Col lg={3}>
           <Card.Img
+          height={250}
             crossOrigin="anonymous"
             variant="top"
             src={images[0] ? images[0].path : ''}

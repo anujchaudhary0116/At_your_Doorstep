@@ -9,14 +9,14 @@ const getOrder = async (orderId) => {
 }
 
 const loadPayPalScript = (cartSubtotal, cartItems, orderId, updateStateAfterOrder) => {
-    loadScript({"client-id": "your PayPal client id"})
+    loadScript({"client-id": "Aa4FVh0AcZCOKM3hpWwuUJYYsauPLipUbDgYqx3Mwe5UvR1qbM5IzBmpJlBJsI61Ovg5v5FovSeFT-pp"})
     .then(paypal => {
         paypal
         .Buttons(buttons(cartSubtotal, cartItems, orderId, updateStateAfterOrder))
         .render("#paypal-container-element");
     })
     .catch(err => {
-        console.error("failed to load the PayPal JS SDK script", err);
+        console.error("Failed to load the PayPal JS SDK script", err);
     })
 }
 

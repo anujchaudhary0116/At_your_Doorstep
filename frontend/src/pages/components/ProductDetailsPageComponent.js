@@ -157,7 +157,7 @@ const ProductDetailsPageComponent = ({
                       Price: <span className="fw-bold">₹{product.price}</span>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      Quantity:
+                      No. of services available: {product.count}
                       <Form.Select
                         value={quantity}
                         onChange={(e) => setQuantity(e.target.value)}
